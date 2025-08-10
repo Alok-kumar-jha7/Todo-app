@@ -6,8 +6,18 @@ const TabsLayout = () => {
     return (
         <Tabs screenOptions={{
             tabBarActiveTintColor:"skyblue",
-            tabBarInactiveTintColor: "silver",
-            tabBarBackgroundColor: "#41526a",
+            tabBarInactiveTintColor: "lightgray",
+            tabBarStyle: {
+                backgroundColor: "#41526a",
+                borderTopWidth: 1,
+                borderTopColor: "grey",
+                paddingTop: 5,
+
+            },
+            tabBarLabelStyle: {
+                fontSize: 12,
+                fontWeight: "bold",
+            },
         }}>
             <Tabs.Screen
                 name='index'
