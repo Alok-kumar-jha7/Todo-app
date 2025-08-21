@@ -5,7 +5,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 const TabsLayout = () => {
     return (
         <Tabs screenOptions={{
-            tabBarActiveTintColor:"skyblue",
+            tabBarActiveTintColor:"#9999ff",
             tabBarInactiveTintColor: "lightgray",
             tabBarStyle: {
                 backgroundColor: "#41526a",
@@ -18,6 +18,7 @@ const TabsLayout = () => {
                 fontSize: 12,
                 fontWeight: "bold",
             },
+            headerShown: false,
         }}>
             <Tabs.Screen
                 name='index'
